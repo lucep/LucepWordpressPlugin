@@ -1,0 +1,31 @@
+/* lucep admin styles
+================================================== */
+.lucep_admin_wrap .main-head, .lucep_admin_wrap .main-content{border:1px solid #ccc;background: #ffffff; }
+.lucep_admin_wrap .main-head{
+	margin-bottom: 10px;
+	padding:0;
+}
+.lucep_admin_wrap h2
+{
+font-size: 20px;
+    padding: 0 10px;
+	}
+.lucep_admin_wrap form
+{
+	padding: 5px 20px;
+}
+.lucep_admin_wrap .form-table th{
+	 width: 110px;
+}
+.lucep_admin_wrap .form-table td{
+	 padding: 0;
+}
+
+.lucep_admin_wrap .form-table input[type="text"], input[type="password"], input[type="checkbox"],   input[type="email"],  input[type="number"], input[type="radio"],  select, textarea{
+	 height: 2.5em;
+    line-height: 100%;
+    margin: 0 0 3px;
+    outline: 0 none;
+    padding: 3px 8px;
+	width:250px;
+}
