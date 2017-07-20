@@ -29,3 +29,9 @@ font-size: 20px;
     padding: 3px 8px;
 	width:250px;
 }
+
+.lucep_admin_wrap .red {
+    font-weight: bold;
+    color : white;
+    background-color : red;
+}
