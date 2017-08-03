@@ -140,7 +140,8 @@ function lucep_plugin_settings_page()
 			<h3>Link up with your Lucep account</h3><hr />
 			<p>Use your Lucep account details below to connect your account with your site. If you do not have a Lucep account just go to <a href="https://lucep.com/signup/?utm_medium=wordpress&utm_campaign=lucep-plugin&utm_source=wordpress-plugin-directory" target="_blank">www.lucep.com/signup</a></p>
 			<?php
-			if (empty(get_option('lucep_accountname'))) { 
+			$lucep_accountname = get_option('lucep_accountname');
+			if (empty($lucep_accountname)) { 
                 // This is the credentials form
 			?>
 			<table class="form-table">
@@ -166,7 +167,7 @@ function lucep_plugin_settings_page()
 			 <?php 
 			 } else {
                 // This is the disconnect form
-                ?>Connected using the team '<?php echo esc_attr( get_option('lucep_accountname') ); ?>'. 
+                ?>Connected using the team '<?php echo esc_attr( $lucep_accountname ); ?>'. 
                 <input type="hidden" name="lucep_disconnect" value="true" />
                 <?php 
                 submit_button("Disconnect",["red"]); 
