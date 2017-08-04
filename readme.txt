@@ -2,8 +2,8 @@
 Contributors: lucep
 Tags: call, contact, customers, sell, sales, leads, convert, conversions, contact plugin, customer support, free call back, click to call, live support, wordpress call now plugin, lucep
 Requires at least: 3.3
-Tested up to: 4.8
-Stable tag: 0.2.0
+Tested up to: 4.8.1
+Stable tag: 1.0.2
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -86,4 +86,14 @@ Yes. When you connect your account this plugin needs to check your login details
 
 = 0.2.0 =
 * First launch into the WordPress plugin directory!
+
+= 0.2.1 =
+* In some installations, the message "Can't use function return value in write context in .../lucep.php on line 143" is displayed
+
+= 1.0.1 =
+* Reverion 0.2.1 to 1.0.1; the version 0.2.0 was the version 1.0
+
+= 1.0.2 =
+* Change the "Stable tag" to this version
+
 
