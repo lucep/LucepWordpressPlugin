@@ -3,7 +3,7 @@
 Plugin Name: Lucep Call Now Button
 Plugin URI: https://lucep.com/signup/?utm_medium=wordpress&utm_campaign=lucep-plugin&utm_source=wordpress-plugin-uri
 Description: Lucep is an instant response call back tool that engages with your website visitors and encourages them to request a call back from your business. Lucep will inform your sales team instantly and provide you with data and analytics on your prospect. 
-Version: 1.0
+Version: 1.0.3
 Author: Lucep
 Author URI: https://lucep.com/signup/?utm_medium=wordpress&utm_campaign=lucep-plugin&utm_source=wordpress-plugin-author
 License: GPLv3
